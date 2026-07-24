@@ -5,7 +5,7 @@ export ledger isAdult: boolean;
 export circuit verifyAge(age: number): [] {
     // Check that the age is 18 or older
     // The age is a private witness and is not revealed on the blockchain
-    assert (age >= 18 "Must be 18 or older");
+    assert (age >= 18, "Must be 18 or older");
     
     // Only the result (true) is disclosed to the public ledger state
     isAdult = disclose(true);
