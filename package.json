@@ -1,0 +1,17 @@
+{
+  "name": "midnight-private-age-verifier",
+  "version": "1.0.0",
+  "description": "A Midnight Compact contract with public ledger state and private witness",
+  "main": "index.js",
+  "scripts": {
+    "compact": "compact compile src/verifier.compact",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "midnight",
+    "compact",
+    "zkp"
+  ],
+  "author": "",
+  "license": "ISC"
+}
