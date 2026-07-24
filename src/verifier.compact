@@ -1,6 +1,6 @@
 pragma language_version 0.23;
 
-export ledger isAdult: bool;
+export ledger isAdult: Boolean;
 
 export circuit verifyAge(age: Uint<64>): [] {
     // Check that the age is 18 or older
